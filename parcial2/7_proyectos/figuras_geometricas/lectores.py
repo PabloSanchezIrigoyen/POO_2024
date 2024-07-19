@@ -24,3 +24,12 @@ class Docentes(Lectores):
         self.modalidad = modalidad
         self.num_empleado = num_empleado
 
+estudiante1 = Estudiantes(nombre="Ana Torres Guzman", direccion="Col. Cerro 1500 o/p", tel=8181234567, carrera="MECA", matricula=2235678)
+docente1 = Docentes(nombre="Daniel Fuentes Loera", direccion="Fracc. D. Arneta 1400 nte", tel=6183335678, modalidad="TT", num_empleado=123)
+
+
+estudiante1.reservar()
+estudiante1.entregar()
+
+docente1.reservar()
+docente1.entregar()
